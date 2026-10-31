@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Calculators Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 font-sans antialiased select-none">
+    
+    <!-- Top App Bar -->
+    <div class="bg-blue-600 text-white p-4 shadow-md sticky top-0 z-10 flex justify-between items-center">
+        <div class="text-lg font-bold">Financial Calculators</div>
+        <button class="text-white hover:text-gray-200"><i class="fa-solid fa-gear text-xl"></i></button>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="max-w-2xl mx-auto p-4 space-y-8 pb-12">
+        
+        <!-- Category: Finance & Investment -->
+        <section>
+            <h2 class="text-xs font-bold text-gray-500 mb-3 uppercase tracking-wider border-b border-gray-300 pb-1">Finance & Investment</h2>
+            <div class="grid grid-cols-3 sm:grid-cols-4 gap-4">
+                
+                <a href="#" class="bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center gap-3 hover:shadow-md transition active:scale-95">
+                    <i class="fa-solid fa-chart-line text-3xl text-green-500"></i>
+                    <span class="text-xs text-center font-medium text-gray-700 leading-tight">TVM Calculator</span>
+                </a>
+
+                <a href="#" class="bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center gap-3 hover:shadow-md transition active:scale-95">
+                    <i class="fa-solid fa-money-bill-trend-up text-3xl text-blue-500"></i>
+                    <span class="text-xs text-center font-medium text-gray-700 leading-tight">Compound Interest</span>
+                </a>
+
+                <a href="#" class="bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center gap-3 hover:shadow-md transition active:scale-95">
+                    <i class="fa-solid fa-globe text-3xl text-purple-500"></i>
+                    <span class="text-xs text-center font-medium text-gray-700 leading-tight">Currency Converter</span>
+                </a>
+
+                <a href="#" class="bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center gap-3 hover:shadow-md transition active:scale-95">
+                    <i class="fa-solid fa-arrow-trend-up text-3xl text-orange-500"></i>
+                    <span class="text-xs text-center font-medium text-gray-700 leading-tight">ROI Calculator</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Category: Loan & Mortgage -->
+        <section>
+            <h2 class="text-xs font-bold text-gray-500 mb-3 uppercase tracking-wider border-b border-gray-300 pb-1">Loan & Mortgage</h2>
+            <div class="grid grid-cols-3 sm:grid-cols-4 gap-4">
+                
+                <a href="#" class="bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center gap-3 hover:shadow-md transition active:scale-95">
+                    <i class="fa-solid fa-house-chimney text-3xl text-indigo-500"></i>
+                    <span class="text-xs text-center font-medium text-gray-700 leading-tight">Mortgage Calculator</span>
+                </a>
+
+                <a href="#" class="bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center gap-3 hover:shadow-md transition active:scale-95">
+                    <i class="fa-solid fa-car text-3xl text-red-500"></i>
+                    <span class="text-xs text-center font-medium text-gray-700 leading-tight">Auto Loan</span>
+                </a>
+
+                <a href="#" class="bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center gap-3 hover:shadow-md transition active:scale-95">
+                    <i class="fa-solid fa-file-invoice-dollar text-3xl text-teal-500"></i>
+                    <span class="text-xs text-center font-medium text-gray-700 leading-tight">Loan Payoff</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Category: Retirement -->
+        <section>
+            <h2 class="text-xs font-bold text-gray-500 mb-3 uppercase tracking-wider border-b border-gray-300 pb-1">Retirement</h2>
+            <div class="grid grid-cols-3 sm:grid-cols-4 gap-4">
+                
+                <a href="#" class="bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center gap-3 hover:shadow-md transition active:scale-95">
+                    <i class="fa-solid fa-piggy-bank text-3xl text-pink-500"></i>
+                    <span class="text-xs text-center font-medium text-gray-700 leading-tight">Retirement Planner</span>
+                </a>
+
+                <a href="#" class="bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center gap-3 hover:shadow-md transition active:scale-95">
+                    <i class="fa-solid fa-scale-balanced text-3xl text-yellow-500"></i>
+                    <span class="text-xs text-center font-medium text-gray-700 leading-tight">Roth vs Traditional</span>
+                </a>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
